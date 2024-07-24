@@ -9,22 +9,13 @@ load_dotenv()
 
 URL = 'https://spb.drom.ru/all/'
 cookies = {
-    '_ga': 'GA1.1.715992914.1712953529',
-    'ring': '935d4a9cW%2FWj9uKem1aqIxoMiwmSA0a6',
-    'cookie_cityid': '2',
-    'cookie_regionid': '78',
-    'my_geo': '78',
-    'dr_df': '1',
-    'segSession': 'IjhhZDBlZjY1ZDI3OTgxMWFjNDRmMDlkMThjZTA3MzNhbm90QXV0aDkzNWQ0YTljV1wvV2o5dUtlbTFhcUl4b01pd21TQTBhNiJfODQzOWE0M2RjMDVlNDUzOWJiNWQzMWVlM2M1ZWZlMTY',
-    'drom_search_web': '4',
-    '_ga_1G91VLKB2K': 'GS1.1.1712953528.1.1.1712953578.10.0.0',
+    #cookies
 }
 
 headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'Accept-Language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
     'Connection': 'keep-alive',
-    # 'Cookie': '_ga=GA1.1.715992914.1712953529; ring=935d4a9cW%2FWj9uKem1aqIxoMiwmSA0a6; cookie_cityid=2; cookie_regionid=78; my_geo=78; dr_df=1; segSession=IjhhZDBlZjY1ZDI3OTgxMWFjNDRmMDlkMThjZTA3MzNhbm90QXV0aDkzNWQ0YTljV1wvV2o5dUtlbTFhcUl4b01pd21TQTBhNiJfODQzOWE0M2RjMDVlNDUzOWJiNWQzMWVlM2M1ZWZlMTY; drom_search_web=4; _ga_1G91VLKB2K=GS1.1.1712953528.1.1.1712953578.10.0.0',
     'If-Modified-Since': 'Sat, 13 Apr 2024 06:26:09 GMT',
     'Referer': 'https://auto.drom.ru/all/page2/',
     'Sec-Fetch-Dest': 'document',
